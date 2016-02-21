@@ -5,8 +5,8 @@
     <description>Genvega, inc. is a AWS partner and solutions architecture company.</description>
     <link>http://www.genvega.com/</link>
     <atom:link href="http://www.genvega.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 21 Feb 2016 16:02:10 -0600</pubDate>
-    <lastBuildDate>Sun, 21 Feb 2016 16:02:10 -0600</lastBuildDate>
+    <pubDate>Sun, 21 Feb 2016 16:21:38 -0600</pubDate>
+    <lastBuildDate>Sun, 21 Feb 2016 16:21:38 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -23,7 +23,7 @@
 &lt;p&gt;At the basic level, DevOps Automation promises to reduce the time taken between writing a line of code and using it in production. In some enterprises, it can take up to 10 person years (yes, 10 person years). Regardless of how long it takes, most IT professionals are familiar with processes and gates that are ubiquitous in SDLC. Even as enterprises switch to agile methodology and automate many aspects of software development, they still depend on a large amount of manual work to test, move, deploy &amp;amp; operate software &amp;amp; infrastructure. With a good plan and a strategic shift in goals and cultural mindset, DevOps promises to automate all aspects - I mean all aspects - of taking software to production.&lt;/p&gt;
 &lt;h2&gt;AWS - SDK and Automation&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;http://aws.amazon.com&quot;&gt;Amazon web services&lt;/a&gt; is built, from the core, for automation. Almost all aspects of infrastructure provisioning on AWS can be done with an API call. In most cases, a DevOps Engineer can chain API calls to provision dependent infrastructure and can also utilize third party tools such as Chef, Puppet or Ansible on AWS. AWS also has products that specifically are built for automating the build lifecycle. If DevOps is a key part of your game plan you will learn about how to take it to the next level. If you want to make DevOps the center of your IT strategy, this presentation will get you started. Do not miss it.&lt;/p&gt;
-&lt;p&gt;Head over the the &lt;a href=&quot;http://www.meetup.com/IllinoisJUGNorthwest/events/228187464/&quot;&gt;IJUG - NW meetup site&lt;/a&gt; for registration and venue information! Special thanks to Illinois Java Users Group for organizing this and their generous hosts &lt;a href=&quot;http://www.nielsen.com/us/en.html&quot;&gt;Nielsen&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Head over to the &lt;a href=&quot;http://www.meetup.com/IllinoisJUGNorthwest/events/228187464/&quot;&gt;IJUG - NW meetup site&lt;/a&gt; for registration and venue information! Special thanks to Illinois Java Users Group for organizing this and their generous hosts &lt;a href=&quot;http://www.nielsen.com/us/en.html&quot;&gt;Nielsen&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Sun, 21 Feb 2016 11:04:43 -0600</pubDate>
         <link>http://www.genvega.com/blog/2016/I-am-presenting-on-aws-devops/</link>
