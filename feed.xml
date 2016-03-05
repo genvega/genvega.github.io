@@ -5,9 +5,33 @@
     <description>Genvega, inc. is a AWS partner and solutions architecture company.</description>
     <link>http://www.genvega.com/</link>
     <atom:link href="http://www.genvega.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 26 Feb 2016 12:25:10 -0600</pubDate>
-    <lastBuildDate>Fri, 26 Feb 2016 12:25:10 -0600</lastBuildDate>
+    <pubDate>Fri, 04 Mar 2016 18:03:22 -0600</pubDate>
+    <lastBuildDate>Fri, 04 Mar 2016 18:03:22 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Calculate TCO for storage and backup</title>
+        <description>&lt;p&gt;What, do you think, is the simplest way to chop off a few percentage points of your IT budget? Does migrating to &lt;a href=&quot;http://aws.amazon.com/&quot;&gt;AWS cloud&lt;/a&gt; storage come to mind? If not, think again! If you need help thinking, you may be in luck. The friendly folks over at AWS recently released a new &lt;a href=&quot;http://www.backuparchive.awstcocalculator.com/&quot;&gt;TCO calculator&lt;/a&gt; for backup and archiving. It looks pretty cool; I took it for a drive earlier today. &lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://www.backuparchive.awstcocalculator.com/&quot;&gt;&lt;img src=&quot;/images/aws-tco-calculator.PNG&quot; alt=&quot;Screenshot of AWS TCO calculator&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;It has three tabs, the &lt;strong&gt;basic&lt;/strong&gt;, &lt;strong&gt;advanced&lt;/strong&gt; and the &lt;strong&gt;direct&lt;/strong&gt; tab. On the basic tab, you just enter the RAW storage that you currently have on-prem and a few characteristics of it, such as its y-o-y growth. Hit calculate, and AWS will show you a pretty picture of how AWS backup solutions compare with on-prem backup architectures. You can also compare the AWS solution with a colo architecture by choosing it in the drop down menu. On the Advanced tab, there are many more options to pick between warm backup and long term archival. If your organization has legal or regulatory requirements around backup, you can specify retention periods (in years or days or any term in between). On the advanced tab, you should also enter how often or how much of your data do you expect to restore and how many levels of redundancy do you want. Additionally, to truly compare on-prem costs with the cloud, the TCO calculator also allows you to enter your leverage of discounts and existing vendor relationships. This means that if you have an existing relationship with NetApp that allows you a 50% discount on volume purchases, this TCO calculator will shave that off its calculation of on prem costs. All in all, it seems well organized. Here is one of the calculations of my driving test on this calculator. I used numbers from a previous job where I was fairly conversant with data backup and archival.  
+&lt;/p&gt;
+&lt;p&gt;
+&lt;a target=&quot;_blank&quot; href=&quot;/images/aws-tco-calculator-test-drive.PNG&quot;&gt;&lt;img src=&quot;/images/aws-tco-calculator-test-drive.PNG&quot; alt=&quot;Screenshot of AWS TCO calculator with my test drive numbers&quot; /&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+This is very interesting. At the very least, it shows two things. At first, it shows a clear cut, numbers based approach that you can compare to your own operations. Secondly, it offers a financial framework to think about cloud data backup and storage. Think about hot storage, cold storage, networking, personnel and support. Don&#39;t think vendors, appliances, hardware, disks, failures and any of those things that vex you today. Great job AWS! 
+&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2016 11:04:43 -0600</pubDate>
+        <link>http://www.genvega.com/blog/2016/Storage-and-backup-calculator/</link>
+        <guid isPermaLink="true">http://www.genvega.com/blog/2016/Storage-and-backup-calculator/</guid>
+        
+        
+        <category>opinion</category>
+        
+      </item>
     
       <item>
         <title>Upload to S3 using the Amazon Java SDK!</title>
