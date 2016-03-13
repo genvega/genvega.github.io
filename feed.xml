@@ -5,9 +5,55 @@
     <description>Genvega, inc. is a AWS partner and solutions architecture company.</description>
     <link>http://www.genvega.com/</link>
     <atom:link href="http://www.genvega.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Mar 2016 18:03:22 -0600</pubDate>
-    <lastBuildDate>Fri, 04 Mar 2016 18:03:22 -0600</lastBuildDate>
+    <pubDate>Sun, 13 Mar 2016 00:01:14 -0600</pubDate>
+    <lastBuildDate>Sun, 13 Mar 2016 00:01:14 -0600</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Tvarit is ready for takeoff!!</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/its_automatic-reduced.jpg&quot; alt=&quot;AWS automated development operations&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;After weeks of burning the midnight candle, I have just released the &lt;a href=&quot;https://github.com/sdole/tvarit-maven/releases/tag/v0.1.1-alpha&quot;&gt;first working alpha&lt;/a&gt; of &lt;a style=&quot;font-weight:bold&quot; href=&quot;http://www.tvarit.io&quot;&gt;Tvarit&lt;/a&gt; - a Dev Ops Automation tool for Amazon Web Services! It is in &lt;a href=&quot;http://search.maven.org/#artifactdetails%7Cio.tvarit%7Ctvarit-maven-plugin%7C0.1.1%7Cmaven-plugin&quot;&gt;maven central&lt;/a&gt;; give it a spin! I want to hear your &lt;a href=&quot;https://github.com/sdole/tvarit-maven/issues/new&quot;&gt;feedback&lt;a /&gt;. Does it work for you? What &lt;a href=&quot;https://github.com/sdole/tvarit-maven/blob/master/README.md&quot;&gt;documentation&lt;/a&gt; should I add to make it clearer? 
+
+&lt;p&gt;
+&lt;h2&gt;Features&lt;/h2&gt;
+&lt;p&gt;
+In a nutshell, Tvarit enables a development team to completely automate deployment of a JEE WAR file to AWS. 
+&lt;/p&gt;
+&lt;p&gt;&lt;ol&gt;
+    &lt;li&gt;1. Tomcat 8 application server with Java 8&lt;/li&gt;
+    &lt;li&gt;2. High availability via cross zone load balancing&lt;/li&gt;
+    &lt;li&gt;3. Completely automated infrastructure setup and deployment&lt;/li&gt;
+    &lt;li&gt;4. Scale horizontally using AWS&#39;s native autoscaling&lt;/li&gt;
+    &lt;li&gt;5. Customize using cloudformation templates (or use the default setup)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/p&gt;&lt;p&gt;
+&lt;h2&gt;Roadmap&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;This is already an exciting product. It can already shave of hours and hours of manual labor for a typical project running on the JEE platform! Here are some of the major enhancements I plan to make in the near future.
+&lt;/p&gt;
+&lt;p&gt;&lt;ol&gt;
+    &lt;li&gt;1. Scale down previously running application versions&lt;/li&gt;
+    &lt;li&gt;2. Completely customizable application server environments&lt;/li&gt;
+    &lt;li&gt;3. Deploy with an RDS datasource with secured credentials&lt;li&gt;
+    &lt;li&gt;4. Automatic independent environments for test and production&lt;/li&gt;
+    &lt;li&gt;5. Multi-app deployment and inter app-version contracts (à la micro-services)&lt;/li&gt;
+    
+
+&lt;p&gt;&lt;h2&gt;How can you help?&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;There are many ways you can get involved. Have a feature idea on your mind? &lt;a href=&quot;https://github.com/sdole/tvarit-maven/issues/new&quot;&gt;Suggest it&lt;/a&gt;, or submit me a pull request. Have questions? Ask me here (in the comments) or on &lt;a href=&quot;https://github.com/sdole/tvarit-maven/issues/new&quot;&gt;GitHub&lt;/a&gt;. Not sure how you can help or have other questions? &lt;a href=&quot;mailto:sdole@genvega.com?subject=I have a question about Tvarit&quot;&gt;Email me&lt;/a&gt; or &lt;a href=&quot;https://twitter.com/sdoledotcom/&quot;&gt;tweet me&lt;/a&gt;, lets discuss!
+&lt;/p&gt;
+&lt;p&gt;&lt;h2&gt;How can I help?&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;I am available for supporting Tvarit and for assessing your Dev Ops automation requirements. I am also available to discuss general AWS topics at your office, with your developers. If you have not already, please check some of my other articles here or come to one of my meetup sessions. AWS is a great product that can truly bring down the costs of your IT infrastructure while improving availability and scalability of it. Ask me to find out how you can do it!
+&lt;/p&gt;
+&lt;/li&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/p&gt;&lt;/p&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 12 Mar 2016 11:04:43 -0600</pubDate>
+        <link>http://www.genvega.com/blog/2016/tvarit-ready-for-takeoff/</link>
+        <guid isPermaLink="true">http://www.genvega.com/blog/2016/tvarit-ready-for-takeoff/</guid>
+        
+        
+        <category>announcements</category>
+        
+      </item>
     
       <item>
         <title>Calculate TCO for storage and backup</title>
