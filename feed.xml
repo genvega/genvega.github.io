@@ -5,13 +5,13 @@
     <description>Genvega, inc. is a AWS partner and solutions architecture company.</description>
     <link>http://www.genvega.com/</link>
     <atom:link href="http://www.genvega.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 18 May 2016 14:16:44 -0500</pubDate>
-    <lastBuildDate>Wed, 18 May 2016 14:16:44 -0500</lastBuildDate>
+    <pubDate>Sat, 21 May 2016 22:37:52 -0500</pubDate>
+    <lastBuildDate>Sat, 21 May 2016 22:37:52 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Speaking: AWS DevOps Automation @ Chicago Coder Conference</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/its_automatic-reduced.jpg&quot; alt=&quot;AWS automated development operations&quot; /&gt;&lt;/p&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/images/ccc_dias.png&quot; alt=&quot;AWS automated development operations&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;I am &lt;a href=&quot;http://chicagocoderconference.com/cccsession/session-5-devops-automation-for-aws/&quot;&gt;speaking&lt;/a&gt; again! This time I am going to be at the &lt;a href=&quot;http://chicagocoderconference.com/&quot;&gt;Chicago Coder Conference&lt;/a&gt; on Monday, June 6 at 3:45. It is very exciting for me to have the chance to talk and learn from everyone else&#39;s experiences. I will be focussing specifically on &lt;a href=&quot;https://aws.amazon.com/&quot;&gt;AWS&lt;/a&gt; and tools it provides for successful DevOps automation. &lt;/p&gt;
 &lt;p&gt;Topics included:
 &lt;ol&gt;
