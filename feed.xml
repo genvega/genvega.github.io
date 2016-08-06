@@ -5,9 +5,36 @@
     <description>Genvega, inc. is a AWS partner and solutions architecture company.</description>
     <link>http://www.genvega.com/</link>
     <atom:link href="http://www.genvega.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 21 May 2016 22:37:52 -0500</pubDate>
-    <lastBuildDate>Sat, 21 May 2016 22:37:52 -0500</lastBuildDate>
+    <pubDate>Sat, 06 Aug 2016 16:43:59 -0500</pubDate>
+    <lastBuildDate>Sat, 06 Aug 2016 16:43:59 -0500</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>AWS labs&#39;s Chalice - deploy serverless python UI</title>
+        <description>&lt;p&gt;
+I recently got to play with &lt;a href=&quot;https://github.com/awslabs/chalice&quot;&gt;Chalice&lt;/a&gt; for a dashboard we are building at my client&#39;s. It is very promising. One way to think about it is of a bridge between the &lt;a href=&quot;https://aws.amazon.com/api-gateway/&quot;&gt;AWS API Gateway&lt;/a&gt; and the &lt;a href=&quot;https://aws.amazon.com/lambda/&quot;&gt;AWS Lambda&lt;/a&gt; serverless compute environment. 
+Chalice is not the only way to integrate an API gateway rest call to the Lambda execute engine, however, it does make things easy for a python flask developer. Programmers need only code in the popular &lt;a href=&quot;http://flask.pocoo.org&quot; /&gt;flask microframework using familiar metadata constructs such as &lt;a href=&quot;http://flask.pocoo.org/docs/0.11/api/#url-route-registrations&quot;&gt;routes&lt;/a&gt;. Chalice reads the metadata reflectively and converts those into corresponding API gateway endpoints. 
+&lt;/p&gt;
+&lt;p&gt;
+
+&lt;div style=&quot;width: 640px; height: 480px; margin: 10px; position: relative;&quot;&gt;&lt;iframe allowfullscreen=&quot;&quot; frameborder=&quot;0&quot; style=&quot;width:640px; height:480px&quot; src=&quot;https://www.lucidchart.com/documents/embeddedchart/c6233f37-c69e-470d-b709-60721212b8c4&quot; id=&quot;v78GGsrFNV0w&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;/p&gt;
+&lt;p&gt;Additionally, it wraps the Flask app in order to decode the API gateway request to an http request format that Flask understands. This is huge. It bridges the two architectures API gateway and Lambda in a standard, predictable way. That in a nutshell is Chalice. Additionally, it also has logic to detect any boto3 calls that the flask app makes and generate IAM policy that will satisfy permissions that the flask app needs. That is pretty neat. The place I work, not all developers have access to creating IAM policies - for obvious security reasons. Even if I created a POC using Chalice as it was when I first looked at it, my developers would not be able to use it. So, I made a tweak to Chalice and James over at AWS Labs accepted my &lt;a href=&quot;https://github.com/awslabs/chalice/pull/85&quot;&gt;github pull request&lt;/a&gt;. Pretty awesome. As of version 0.1.0, one can just configure a pre-defined IAM role for Chalice to use instead of trying to create one from scratch. FTW!
+&lt;/p&gt;
+
+&lt;p&gt;
+Head over to the &lt;a href=&quot;https://github.com/awslabs/chalice&quot;&gt;Chalice github repo&lt;/a&gt; to get all the latest code and documentation. 
+&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Aug 2016 12:04:43 -0500</pubDate>
+        <link>http://www.genvega.com/blog/2016/Chalice-contribution/</link>
+        <guid isPermaLink="true">http://www.genvega.com/blog/2016/Chalice-contribution/</guid>
+        
+        
+        <category>technology</category>
+        
+      </item>
     
       <item>
         <title>Speaking: AWS DevOps Automation @ Chicago Coder Conference</title>
